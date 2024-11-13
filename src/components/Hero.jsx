@@ -29,7 +29,7 @@ const Hero = () => {
             DomePannawat
           </h1>
           <br />
-          <p className="md:text-base text-pretty text-sm text-gray-300">
+          <p className="md:text-base text-pretty text-sm text-gray-300 mt-4">
             Graduate from the Generation Bootcamp in Junior Software
             Development, with a Business Administration degree from King
             Mongkut's Institute of Technology Ladkrabang. Skilled in
@@ -39,6 +39,8 @@ const Hero = () => {
             continuous learning, I am eager to bring my skills to a dynamic team
             and contribute to impactful projects.
           </p>
+          <br />
+          <a href="/CV-Dome-1.pdf" target="_blank" className="text-nowrap rounded-lg border border-indigo-600 bg-black px-5 py-3 text-lg font-bold text-white shadow-lg shadow-indigo-700 transition-all duration-300 hover:-translate-y-2 hover:shadow-xl hover:shadow-indigo-600 mt-4">CV DomePannawat</a>
         </motion.div>
       </div>
     </div>
