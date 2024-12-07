@@ -6,7 +6,7 @@ const projectsData = [
     title: "Daily Vogue Full Stack Developer Project",
     description: "Daily Vogue is an e-commerce platform focused on selling everyday wearable fashion. The project involves designing and developing both the front-end and back-end of the website, integrating user authentication, product listings, and a seamless shopping cart experience. Technologies used include HTML, CSS, JavaScript, React, Node.js, Express, and MongoDB.",
     technologies: ["HTML", "Tailwind", "JavaScript", "React", "Node.Js", "Express", "MongoDB"],
-    link: "https://project-daily-vogue.vercel.app/"
+    link: "https://github.com/DomePannawat/Project-Daily-Vogue"
   },
   {
     title: "TechSovaChat-bot Project",
