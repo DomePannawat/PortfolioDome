@@ -36,7 +36,7 @@ const Navbar = () => {
 
       <ul className="hidden md:flex gap-5 ">
         <li className="cursor-pointer text-xl opacity-70 transition-all duration-300 hover:text-sky-400 hover:opacity-100">
-          <a href="#" target="_blank">
+          <a href="https://www.linkedin.com/in/domepannawat/" target="_blank">
           <BsLinkedin />
           </a>
         </li>

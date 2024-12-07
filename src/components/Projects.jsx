@@ -3,19 +3,22 @@ import { motion } from "motion/react"
 
 const projectsData = [
   {
+    title: "Daily Vogue Full Stack Developer Project",
+    description: "Daily Vogue is an e-commerce platform focused on selling everyday wearable fashion. The project involves designing and developing both the front-end and back-end of the website, integrating user authentication, product listings, and a seamless shopping cart experience. Technologies used include HTML, CSS, JavaScript, React, Node.js, Express, and MongoDB.",
+    technologies: ["HTML", "Tailwind", "JavaScript", "React", "Node.Js", "Express", "MongoDB"],
+    link: "https://project-daily-vogue.vercel.app/"
+  },
+  {
     title: "TechSovaChat-bot Project",
     description: "TechSova is an innovative chatbot application designed for engaging user experiences through conversational AI. Built with HTML, CSS, TailwindCSS, JavaScript, Node.js, and the Vanilla framework, it leverages advanced generative AI technology to create natural dialogues and meaningful interactions.",
     technologies: ["HTML", "Tailwind", "JavaScript", "Node.Js", "Vanilla"],
+    link: "https://github.com/DomePannawat/TechSovaChat-bot"
   },
   {
     title: "Face Detection Project",
     description: "The Face Detection Application is a Python-based program that utilizes OpenCV and Mediapipe libraries for real-time face detection. This application provides a user-friendly interface through Tkinter, enabling users to start and stop the camera feed and detect faces efficiently.",
     technologies: ["Python", "OpenCV", "Mediapipe", "Tkinter"],
-  },
-  {
-    title: "Daily Vogue Full Stack Developer Project",
-    description: "Daily Vogue is an e-commerce platform focused on selling everyday wearable fashion. The project involves designing and developing both the front-end and back-end of the website, integrating user authentication, product listings, and a seamless shopping cart experience. Technologies used include HTML, CSS, JavaScript, React, Node.js, Express, and MongoDB.",
-    technologies: ["HTML", "Tailwind", "JavaScript", "React", "Node.Js", "Express", "MongoDB"],
+    link: "https://github.com/DomePannawat/Face-Detection"
   },
 ];
 
@@ -48,6 +51,14 @@ const ProjectsCard = ({ project }) => {
               </span>
             ))}
           </div>
+          <a
+            href={project.link}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-nowrap rounded-lg border border-indigo-600 bg-black px-5 py-3 text-lg font-bold text-white shadow-lg shadow-indigo-700 transition-all duration-300 hover:-translate-y-2 hover:shadow-xl hover:shadow-indigo-600 mt-4"
+          >
+            View Project
+          </a>
         </div>
       </div>
     </ScrollReveal>

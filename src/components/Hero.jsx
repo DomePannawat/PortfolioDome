@@ -8,9 +8,9 @@ const Hero = () => {
     >
       <div className="flex flex-col items-center justify-center gap-10 text-white">
         <motion.div
-        initial={{y: -50, opacity: 0}}
-        animate={{y: 0 , opacity:1}}
-        transition={{duration: 0.8, delay:0.2}}
+          initial={{ y: -50, opacity: 0 }}
+          animate={{ y: 0, opacity: 1 }}
+          transition={{ duration: 0.8, delay: 0.2 }}
         >
           <img
             src="/dome.jpg"
@@ -19,28 +19,37 @@ const Hero = () => {
           />
         </motion.div>
 
-        <motion.div 
-          initial={{y: 50, opacity: 0}}
-          animate={{y: 0 , opacity:1}}
-          transition={{duration: 0.8, delay:0.2}}
-
-        className="flex max-w-[600px] flex-col items-center justify-center gap-3 text-center">
+        <motion.div
+          initial={{ y: 50, opacity: 0 }}
+          animate={{ y: 0, opacity: 1 }}
+          transition={{ duration: 0.8, delay: 0.2 }}
+          className="flex max-w-[600px] flex-col items-center justify-center gap-3 text-center"
+        >
           <h1 className="bg-gradient-to-r from-blue-500 to-pink-500 bg-clip-text text-transparent text-5xl font-light md:text-6xl ">
             DomePannawat
           </h1>
+          <a
+            href="/CV-DomePannawat.pdf"
+            target="_blank"
+            className="text-nowrap rounded-lg border border-indigo-600 bg-black px-5 py-3 text-lg font-bold text-white shadow-lg shadow-indigo-700 transition-all duration-300 hover:-translate-y-2 hover:shadow-xl hover:shadow-indigo-600 mt-4"
+          >
+            CV DomePannawat
+          </a>
           <br />
-          <p className="md:text-base text-pretty text-sm text-gray-300 mt-4">
-            Graduate from the Generation Bootcamp in Junior Software
-            Development, with a Business Administration degree from King
-            Mongkut's Institute of Technology Ladkrabang. Skilled in
-            problem-solving, teamwork, and time management, with experience in
-            JavaScript, TypeScript, Python, HTML, CSS, Tailwind, React, Node.js,
-            Express, MongoDB, and MySQL. Passionate about innovation and
-            continuous learning, I am eager to bring my skills to a dynamic team
-            and contribute to impactful projects.
+          <p className="md:text-base text-pretty text-sm text-gray-300 mt-2">
+            DomePannawat is focused on enhancing skills and creating user-driven
+            solutions. Currently studying Junior Software Development at
+            Generation Bootcamp, with a degree in Business Administration
+            (Business Economics and Management) from King Mongkut's Institute of
+            Technology Ladkrabang. Proficient in Golang, Python, TypeScript,
+            JavaScript, HTML, CSS, Tailwind CSS, React, Node.js, Express,
+            MongoDB, and MySQL, with a strong understanding of software
+            development processes. Experienced in building Dynamic Chatbot AI,
+            facial recognition with OpenCV, and leading food-related e-commerce
+            projects. Skilled in problem-solving, analysis, communication,
+            teamwork, and time management. Passionate about continuous learning
+            and adaptable to various roles in the IT industry.
           </p>
-          <br />
-          <a href="/CV-Dome-1.pdf" target="_blank" className="text-nowrap rounded-lg border border-indigo-600 bg-black px-5 py-3 text-lg font-bold text-white shadow-lg shadow-indigo-700 transition-all duration-300 hover:-translate-y-2 hover:shadow-xl hover:shadow-indigo-600 mt-4">CV DomePannawat</a>
         </motion.div>
       </div>
     </div>
