@@ -9,6 +9,12 @@ const projectsData = [
     link: "https://github.com/DomePannawat/Project-Daily-Vogue"
   },
   {
+    title: "FLAVOR BOX Full Stack Developer Project",
+    description: "FLAVOR BOX is an e-commerce platform specializing in meal kits, offering a variety of menus for easy and convenient home cooking. We are dedicated to providing an enjoyable and delicious cooking experience for our customers through high-quality ingredients and meticulously crafted recipes.Technologies used include HTML, CSS, TypeScript , JavaScript, React, Node.js, Express, and MongoDB.",
+    technologies: ["HTML", "Tailwind", "TypeScript" , "JavaScript", "React", "Node.Js", "Express", "MongoDB"],
+    link: "https://github.com/Quantum-Chronicle-Saurus/Meal-Kit-Ecommerce-project.git"
+  },
+  {
     title: "TechSovaChat-bot Project",
     description: "TechSova is an innovative chatbot application designed for engaging user experiences through conversational AI. Built with HTML, CSS, TailwindCSS, JavaScript, Node.js, and the Vanilla framework, it leverages advanced generative AI technology to create natural dialogues and meaningful interactions.",
     technologies: ["HTML", "Tailwind", "JavaScript", "Node.Js", "Vanilla"],
