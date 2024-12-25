@@ -29,7 +29,7 @@ const Hero = () => {
             DomePannawat
           </h1>
           <a
-            href="/CV-DomePannawat.pdf"
+            href="/CV-Pannawat.pdf"
             target="_blank"
             className="text-nowrap rounded-lg border border-indigo-600 bg-black px-5 py-3 text-lg font-bold text-white shadow-lg shadow-indigo-700 transition-all duration-300 hover:-translate-y-2 hover:shadow-xl hover:shadow-indigo-600 mt-4"
           >
@@ -38,9 +38,9 @@ const Hero = () => {
           <br />
           <p className="md:text-base text-pretty text-sm text-gray-300 mt-2">
             DomePannawat is focused on enhancing skills and creating user-driven
-            solutions. Currently studying Junior Software Development at
-            Generation Bootcamp, with a degree in Business Administration
-            (Business Economics and Management) from King Mongkut's Institute of
+            solutions. Graduated from Junior Software Development at Generation
+            Bootcamp, with a degree in Business Administration (Business
+            Economics and Management) from King Mongkut's Institute of
             Technology Ladkrabang. Proficient in Golang, Python, TypeScript,
             JavaScript, HTML, CSS, Tailwind CSS, React, Node.js, Express,
             MongoDB, and MySQL, with a strong understanding of software
