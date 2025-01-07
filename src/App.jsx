@@ -4,6 +4,7 @@ import Hero from "./components/Hero";
 import Navbar from "./components/Navbar";
 import Projects from "./components/Projects";
 import Tech from "./components/Tech";
+import Certificate from "./components/Certificate";
 
 function App() {
   useEffect(() => {
@@ -18,6 +19,7 @@ function App() {
         <Hero />
         <Tech />
         <Projects />
+        <Certificate />
         <Contact />
       </main>
     </div>

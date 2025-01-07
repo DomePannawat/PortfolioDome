@@ -28,6 +28,10 @@ const Navbar = () => {
           <li>Projects</li>
         </a>
 
+        <a href="#certificates" className="cursor-pointer opacity-70 transition-all duration-300 hover:opacity-100">
+          <li>Certificates</li>
+        </a>
+
         <a href="#contact" className="cursor-pointer opacity-70 transition-all duration-300 hover:opacity-100">
           <li>Contact</li>
         </a>
@@ -69,6 +73,10 @@ const Navbar = () => {
 
           <a href="#projects" className="cursor-pointer opacity-70 transition-all duration-300 hover:opacity-100">
             <li>Projects</li>
+          </a>
+
+          <a href="#certificates" className="cursor-pointer opacity-70 transition-all duration-300 hover:opacity-100">
+            <li>Certificates</li>
           </a>
 
           <a href="#contact" className="cursor-pointer opacity-70 transition-all duration-300 hover:opacity-100">

@@ -3,16 +3,22 @@ import { motion } from "motion/react"
 
 const projectsData = [
   {
-    title: "Daily Vogue Full Stack Developer Project",
-    description: "Daily Vogue is an e-commerce platform focused on selling everyday wearable fashion. The project involves designing and developing both the front-end and back-end of the website, integrating user authentication, product listings, and a seamless shopping cart experience. Technologies used include HTML, CSS, JavaScript, React, Node.js, Express, and MongoDB.",
-    technologies: ["HTML", "Tailwind", "JavaScript", "React", "Node.Js", "Express", "MongoDB"],
-    link: "https://github.com/DomePannawat/Project-Daily-Vogue"
-  },
-  {
     title: "FLAVOR BOX Full Stack Developer Project",
     description: "FLAVOR BOX is an e-commerce platform specializing in meal kits, offering a variety of menus for easy and convenient home cooking. We are dedicated to providing an enjoyable and delicious cooking experience for our customers through high-quality ingredients and meticulously crafted recipes.Technologies used include HTML, CSS, TypeScript , JavaScript, React, Node.js, Express, and MongoDB.",
     technologies: ["HTML", "Tailwind", "TypeScript" , "JavaScript", "React", "Node.Js", "Express", "MongoDB"],
     link: "https://github.com/Quantum-Chronicle-Saurus/Meal-Kit-Ecommerce-project.git"
+  },
+  {
+    title: "Personal Finance Management Backend Project",
+    description: "A backend system for personal finance management built with Go (Golang) and the Gin Framework, designed to provide a fast and flexible API.",
+    technologies: ["Go ( Golang )", "Gin Framework", "MongoDB" ,"JSON Web Token ( JWT )"],
+    link: "https://github.com/DomePannawat/Personal-Finance-Management-Backend.git"
+  },
+  {
+    title: "Daily Vogue Full Stack Developer Project",
+    description: "Daily Vogue is an e-commerce platform focused on selling everyday wearable fashion. The project involves designing and developing both the front-end and back-end of the website, integrating user authentication, product listings, and a seamless shopping cart experience. Technologies used include HTML, CSS, JavaScript, React, Node.js, Express, and MongoDB.",
+    technologies: ["HTML", "Tailwind", "JavaScript", "React", "Node.Js", "Express", "MongoDB"],
+    link: "https://github.com/DomePannawat/Project-Daily-Vogue"
   },
   {
     title: "TechSovaChat-bot Project",
