@@ -13,7 +13,7 @@ const certificatesData = [
     title: "Full Stack Engineer Career Path",
     organization: "Codecademy",
     date: "December 2024",
-    description: "Completed comprehensive training in DevOps, Data Engineering, and Computer Science, gaining expertise in JavaScript, React.js, Node.js, Express.js, MySQL, PostgreSQL, HTML, CSS, Data Security, and Data Science.",
+    description: "Completed comprehensive training in Data Engineering, and Computer Science, gaining expertise in JavaScript, React.js, Node.js, Express.js, MySQL, PostgreSQL, HTML, CSS .",
     image: "/Full-Stack-Engineer.png",
     credential: "/Full-Stack-Engineer.png"
   },
