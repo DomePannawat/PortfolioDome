@@ -10,7 +10,7 @@ const projectsData = [
   },
   {
     title: "Personal Finance Management Backend Project",
-    description: "A backend system for personal finance management built with Go (Golang) and the Gin Framework, designed to provide a fast and flexible API.",
+    description: "Developed a system to help individuals manage their personal finances effectively. This includes features like user registration, budget tracking, recording expenses, and generating financial reports. The system was built using Go (Golang) and the Gin Framework.",
     technologies: ["Go ( Golang )", "Gin Framework", "MongoDB" ,"JSON Web Token ( JWT )"],
     link: "https://github.com/DomePannawat/Personal-Finance-Management-Backend.git"
   },
